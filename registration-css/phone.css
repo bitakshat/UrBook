@@ -27,6 +27,7 @@
 .two {
     position: absolute;
     top: 90vh;
+    height:100vh;
     float: none;
     width: 100vw;
     border-top-left-radius: 0;
