@@ -12,11 +12,9 @@
 }
 
 .social_icon{
-    top: 1px;
-    right: 50px;
-}
+    left: 60px;}
 .social_icon span{
-    font-size: 40px;
+    font-size: 50px;
 }
 hr{
     width: 150px;
@@ -50,7 +48,8 @@ hr{
 }
 
 .btn{
-    top: 240px;
+    top: 35px;
+    left: 110px;
     font:17px;
     padding: 10px 17px;
 }
