@@ -1,0 +1,41 @@
+.one {
+    background-color: orange;
+    background: linear-gradient(147deg, blue, orange,red);
+    position: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    top: 0;
+    left: 0;
+    width: 40vw;
+    margin: 0;
+    font-size: 1rem;
+}
+.block{
+    position: relative;
+    bottom: 30px;
+    display: block;
+    font-size: 1.9rem;
+}
+.two{
+    position: absolute;
+    top: 80vh;
+    float: none;
+    width: 100vw;
+    border-top-left-radius: 200px;
+    border-width: 4px 2px 10px 20px;
+}
+
+.check{
+    font-size: 1.3rem;
+}
+
+.bubbles{
+    justify-content: space-around
+}
+

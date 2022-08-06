@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.one {
+    background-color: orange;
+    background: linear-gradient(147deg, blue, orange,red);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.two {
+    background-color: blue;
+    background: url('../registration-image/background.jpg') no-repeat center center/cover;
+    float: right;
+    height: 90vh;
+    width: 55vw;
+    position: relative;
+    border: 2px solid black;
+    border-top-left-radius: 200px;
+    border-width: 20px 0 0 0;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ur book */
+
+.container {
+    position: relative;
+    float: left;
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 18vh;
+    left: 9vw;
+    margin: 0 0 0 12px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.container img {
+    height: 140px;
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+}
+
+.container h1{
+    font-family: 'Courgette', cursive;
+}
+
+.container h2{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.writer {
+    text-align: right;
+}
+.start {
+    content: "";
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+
+.head-point {
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-ini {
+    padding: 20px;
+}
+
+
+.tab-type1 {
+    color: white;
+    font-size: 20px;
+}
+
+.tab-type1 input {
+    width: 104px;
+    height: 24px;
+    border-top-left-radius: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab-type2 {
+    color: white;
+    font-size: 20px;
+}
+
+.tab-type2 input {
+    width: 245px;
+    height: 24px;
+    border-top-left-radius: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab-type2 input[name=username] {
+    text-transform: none;
+}
+
+.tab-type2 input[type=email] {
+    text-transform: none;
+}
+
+.tab-type3 {
+    color: white;
+    font-size: 20px;
+}
+
+.tab-type3 input {
+    width: 139px;
+    height: 24px;
+    margin: 0 2.5px;
+    border-top-left-radius: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.no-upper {
+    text-transform: none;
+}
+
+.check {
+    font-size: 1.2rem;
+    width: auto;
+    margin-bottom: 4px;
+    position: relative;
+    color: white;
+    font-weight: 100;
+    top: -20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.check input[type=checkbox] {
+    width: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    position: relative;
+    top: 215px;
+    padding: 7px 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid antiquewhite;
+}
+
+.btn:hover {
+    color: black;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+    border: none;
+    font-weight: 100;
+}
+
+hr {
+    width: 250px;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.reg {
+    padding: 0 20px;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: cyan;
+    cursor: grabbing;
+}
+
+.social_icon {
+    position: absolute;
+    right: 24px;
+    top: -7px;
+}
+
+/* Animation */
+.bubbles img {
+    height: 40px;
+    animation: bubble 7s linear infinite;
+    margin: 0 2.9vw;
+}
+
+.bubbles {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    bottom: 0px;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.bubbles img:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.bubbles img:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.bubbles img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+
+.bubbles img:nth-child(5) {
+    animation-delay: 3s;
+}
+
+.bubbles img:nth-child(6) {
+    animation-delay: 6s;
+}
+
+.bubbles img:nth-child(7) {
+    animation-delay: 7s;
+}

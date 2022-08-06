@@ -1,0 +1,56 @@
+.container{
+    width:200px;
+    font-size: 14px;
+}
+
+.container img{
+    height: 100px;
+}
+
+.reg{
+    font-size: 0.7rem;
+}
+
+.social_icon{
+    top: 1px;
+    right: 50px;
+}
+.social_icon span{
+    font-size: 40px;
+}
+hr{
+    width: 150px;
+}
+
+.tab-type1{
+    font-size: 17px;
+}
+.tab-type1 input{
+    height: 20px;
+    width:62px
+}
+.tab-type2{
+    font-size: 17px;
+}
+.tab-type2 input{
+    height: 20px;
+    width:158px
+}
+.tab-type3{
+    font-size: 17px;
+}
+.tab-type3 input{
+    height: 20px;
+    width:92px
+}
+
+.check{
+    font-size: 1rem;
+    top: 0;
+}
+
+.btn{
+    top: 240px;
+    font:17px;
+    padding: 10px 17px;
+}
