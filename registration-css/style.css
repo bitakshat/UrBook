@@ -218,6 +218,7 @@ hr {
     height: 40px;
     animation: bubble 7s linear infinite;
     margin: 0 2.9vw;
+    z-index: -1;
 }
 
 .bubbles {
@@ -231,19 +232,23 @@ hr {
     0% {
         transform: translateY(0);
         opacity: 0;
+        z-index: 0;
     }
 
     50% {
         opacity: 0.7;
+        z-index: 0;
     }
 
     70% {
         opacity: 0.7;
+        z-index: 0;
     }
 
     100% {
         transform: translateY(-80vh);
         opacity: 0;
+        z-index: 0;
     }
 }
 
