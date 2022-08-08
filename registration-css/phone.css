@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
@@ -26,10 +25,9 @@
 
 .two {
     position: absolute;
-    top: 90vh;
-    height:100vh;
+    top: 700px;
     float: none;
-    width: 100vw;
+    width: 100%;
     border-top-left-radius: 0;
     border-width: 0;
 }
